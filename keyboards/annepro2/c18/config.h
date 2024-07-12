@@ -25,6 +25,8 @@
 #define LINE_BT_UART_TX A4  // Master TX, BLE RX
 #define LINE_BT_UART_RX A5  // Master RX, BLE TX
 
+#define MIDI_BASIC
+
 // Obins stock firmware has something similar to this already enabled, but disabled by default in QMK
 #define PERMISSIVE_HOLD
 
