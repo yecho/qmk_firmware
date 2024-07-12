@@ -13,6 +13,10 @@ BOARD = ANNEPRO2_C18
 BOOTLOADER = custom
 PROGRAM_CMD = annepro2_tools --boot $(BUILD_DIR)/$(TARGET).bin
 
+# Options
+MIDI_ENABLE = yes
+UNICODEMAP_ENABLE = yes
+
 # Anne Pro 2
 SRC = \
 	annepro2_ble.c \
