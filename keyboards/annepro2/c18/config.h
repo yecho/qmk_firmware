@@ -28,7 +28,7 @@
 #define MIDI_BASIC
 
 // Obins stock firmware has something similar to this already enabled, but disabled by default in QMK
-#define PERMISSIVE_HOLD
+#define HOLD_ON_OTHER_KEY_PRESS_PER_KEY
 
 // SPI configuration
 #define SPI_DRIVER SPID1
