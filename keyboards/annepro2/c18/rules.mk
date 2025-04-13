@@ -9,12 +9,15 @@ MCU_STARTUP = ht32f523xx
 
 BOARD = ANNEPRO2_C18
 
+# Compile/Link Options
+EXTRAFLAGS += -flto
+
 # Bootloader selection
 BOOTLOADER = custom
 PROGRAM_CMD = annepro2_tools --boot $(BUILD_DIR)/$(TARGET).bin
 
 # Options
-MIDI_ENABLE = yes
+#MIDI_ENABLE = yes
 UNICODEMAP_ENABLE = yes
 
 # Anne Pro 2

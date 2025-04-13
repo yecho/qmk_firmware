@@ -25,10 +25,11 @@
 #define LINE_BT_UART_TX A4  // Master TX, BLE RX
 #define LINE_BT_UART_RX A5  // Master RX, BLE TX
 
-#define MIDI_BASIC
+/* #define MIDI_BASIC */
 
 // Obins stock firmware has something similar to this already enabled, but disabled by default in QMK
-#define HOLD_ON_OTHER_KEY_PRESS_PER_KEY
+#define HOLD_ON_OTHER_KEY_PRESS
+#define TAPPING_TERM 150
 
 // SPI configuration
 #define SPI_DRIVER SPID1
