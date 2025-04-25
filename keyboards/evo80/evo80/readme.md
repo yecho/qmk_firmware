@@ -2,9 +2,9 @@
 
 A customizable 88key keyboard.
 
-![evo80](https://raw.githubusercontent.com/Linyer-qwq/image/main/evo80.jpg)
+![evo80]
 
-* Keyboard Maintainer: [LiWenLiu](https://github.com/LiuLiuQMK)
+* Keyboard Maintainer: 
 * Hardware Supported: evo80 PCB with es32fs026 microcontroller
 
 Make example for this keyboard (after setting up your build environment):
